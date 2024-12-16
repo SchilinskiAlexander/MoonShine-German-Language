@@ -1,5 +1,5 @@
 {
-  "name": "moonshine/de",
+  "name": "SchilinskiAlexander/MoonShine-German-Language",
   "description": "German localization for MoonShine",
   "keywords": ["laravel", "de", "localization" ,"admin", "dashboard", "moonshine"],
   "type": "library",
