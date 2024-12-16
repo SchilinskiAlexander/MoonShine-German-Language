@@ -1,0 +1,53 @@
+{
+  "name": "moonshine/de",
+  "description": "German localization for MoonShine",
+  "keywords": ["laravel", "de", "localization" ,"admin", "dashboard", "moonshine"],
+  "type": "library",
+  "homepage": "https://schilinskialexander.com",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/SchilinskiAlexander/MoonShine-German-Language/issues",
+    "source": "https://github.com/SchilinskiAlexander/MoonShine-German-Language"
+  },
+  "authors": [
+    {
+      "name": "Alexander Schilinski",
+      "email": "contact@schilinskialexander.com",
+      "homepage": "https://schilinskialexander.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2|^8.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "MoonShine\\De\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+
+    }
+  },
+  "conflict": {
+    "laravel/framework": "<10.48.0",
+    "moonshine/moonshine": "<3.0"
+  },
+  "scripts": {
+
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MoonShine\\De\\Providers\\DeServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+
+    }
+  }
+}
